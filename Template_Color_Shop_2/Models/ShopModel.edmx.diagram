@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d91a7c17eff647358e34376e711d70bd" Name="Diagram1">
+        <EntityTypeShape EntityType="QLBCCModel.AnhChiTietSP" Width="1.5" PointX="9.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBCCModel.ChiTietDH" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBCCModel.DonHang" Width="1.5" PointX="7.5" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBCCModel.MauSac" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBCCModel.NguoiDung" Width="1.5" PointX="5.25" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBCCModel.PhanLoai" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBCCModel.PhanLoaiPhu" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBCCModel.SanPham" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBCCModel.SPtheoMau" Width="1.5" PointX="7.5" PointY="3.625" IsExpanded="true" />
+        <AssociationConnector Association="QLBCCModel.FK__AnhChiTie__MaSPT__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBCCModel.FK__ChiTietDH__MaChi__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBCCModel.FK__ChiTietDH__MaDon__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBCCModel.FK__DonHang__MaNguoi__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBCCModel.FK__SPtheoMau__MaMau__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBCCModel.FK__PhanLoaiP__MaPha__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBCCModel.FK__SanPham__MaPhanL__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBCCModel.FK__SanPham__MaPhanL__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBCCModel.FK__SPtheoMau__MaSan__33D4B598" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
